@@ -1,2 +1,4 @@
-# OpenSourceSoftware
-2023-2 OpenSourceSoftware
+# 서울과학기술대학교
+*컴퓨터 공학과*
+### 20학번
+#### 전성현 입니다 :smile:
