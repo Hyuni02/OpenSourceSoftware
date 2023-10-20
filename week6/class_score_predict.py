@@ -18,9 +18,9 @@ def ReadCSV(filename):
 
 if __name__ == '__main__':
     # Load score data
-    scores = np.array(ReadCSV('data/class_score_*.csv'))
     midtm_range = np.array([0, 125])
     final_range = np.array([0, 100])
+    scores = np.array(ReadCSV('data/class_score_*.csv'))
 
     # Estimate a line, final = slope * midterm + y_intercept
     A = np.vstack((scores[:, 0], np.ones(len(scores)))).T
